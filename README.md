@@ -5,17 +5,17 @@
 
 The application contains the following elements:
 
- a combo box for selecting the shape to draw, a line, oval, or rectangle.
- two JButtons that each show a JColorChooser dialog to allow the user to choose the first and second color in the gradient.
- an Undo button to undo the last shape drawn.
- a Clear button to clear all shapes from the drawing.
- a checkbox which specifies if the shape should be filled or unfilled.
- a checkbox to specify whether to paint using a gradient.
- a checkbox for specifying whether to draw a dashed or solid line.
- a JSpinner for entering the Stroke width.
- a JSpinner for entering the Stroke dash length.
- a JPanel on which the shapes are drawn.
- a status bar JLabel at the bottom of the frame that displays the current location of the mouse on the draw panel.
+* A combo box for selecting the shape to draw, a line, oval, or rectangle.
+* Two JButtons that each show a JColorChooser dialog to allow the user to choose the first and second color in the gradient.
+* An Undo button to undo the last shape drawn.
+* A Clear button to clear all shapes from the drawing.
+* A checkbox which specifies if the shape should be filled or unfilled.
+* A checkbox to specify whether to paint using a gradient.
+* A checkbox for specifying whether to draw a dashed or solid line.
+* A JSpinner for entering the Stroke width.
+* A JSpinner for entering the Stroke dash length.
+* A JPanel on which the shapes are drawn.
+* A status bar JLabel at the bottom of the frame that displays the current location of the mouse on the draw panel.
 
  
 If the user selects to draw with a gradient, set the Paint on the shape to be a gradient of the two colors chosen by the user. If the user does not chose to draw with a gradient, then Paint with a solid color of the 1st Color. 
